@@ -162,9 +162,7 @@ export function FlashSale() {
           </button>
         </div>
       </div>
-
-      {/* Below height will be removed later */}
-      <div className="h-[1000px]"></div>
+      <div className="mt-14 border"></div>
     </div>
   );
 }
