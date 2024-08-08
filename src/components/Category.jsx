@@ -33,7 +33,7 @@ export function Category() {
     },
   ];
   return (
-    <div className="mt-10 px-32">
+    <div className="mt-10 px-20">
       <div id="browse-categories" className="flex items-end justify-between">
         <div>
           <div className="flex items-center gap-2">
@@ -51,7 +51,7 @@ export function Category() {
           <i className="fa-solid fa-arrow-right rounded-full bg-neutral-100 p-4"></i>
         </div>
       </div>
-      <div id="categories" className="mt-10 flex gap-4">
+      <div id="categories" className="mt-10 flex gap-8">
         {categoriesList.map(({ id, name, img }) => {
           const bgColor = id === 4 ? "bg-red-600" : "";
           return (
@@ -68,8 +68,6 @@ export function Category() {
         })}
       </div>
       <div className="mt-14 border"></div>
-      {/* Below height will be removed later */}
-      <div className="h-[1000px]"></div>
     </div>
   );
 }
