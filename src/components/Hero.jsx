@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <div className="flex px-32">
+    <div className="flex px-20">
       <div className="flex w-[250px] gap-4">
         <ul className="pt-4 font-display">
           <li className="p-2 pl-0">
