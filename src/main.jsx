@@ -4,12 +4,22 @@ import Home from "./Home.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import ErrorPage from "./components/error-page.jsx";
+import { Singup } from "./components/Signup.jsx";
+import { Login } from "./components/Login.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "signup",
+    element: <Singup />,
+  },
+  {
+    path: "login",
+    element: <Login />,
   },
 ]);
 
