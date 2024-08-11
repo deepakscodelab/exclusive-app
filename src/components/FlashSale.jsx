@@ -43,7 +43,7 @@ export function FlashSale() {
   ];
 
   return (
-    <div className="mt-20 px-32">
+    <div className="mt-20 px-20">
       <div className="flex justify-between">
         <div className="flex w-[600px] items-end gap-4">
           <div className="flex h-[103px] w-[211px] flex-col justify-between">
@@ -94,7 +94,7 @@ export function FlashSale() {
         </div>
       </div>
       <div id="sale-product" className="mt-10">
-        <div className="flex gap-6">
+        <div className="flex gap-8">
           {productList.map((product) => {
             const {
               id,
