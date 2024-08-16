@@ -8,6 +8,7 @@ import { Singup } from "./components/Signup.jsx";
 import { Login } from "./components/Login.jsx";
 import { Wishlist } from "./components/Wishlist.jsx";
 import { Cart } from "./components/Cart.jsx";
+import { Checkout } from "./components/Checkout.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "cart",
     element: <Cart />,
+  },
+  {
+    path: "checkout",
+    element: <Checkout />,
   },
 ]);
 
