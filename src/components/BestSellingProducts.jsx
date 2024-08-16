@@ -6,7 +6,7 @@ export function BestSellingProducts() {
       img: "product5.png",
       price: 360,
       discountedPrice: 260,
-      revies: 65,
+      review: 65,
       rating: 5,
     },
     {
@@ -15,7 +15,7 @@ export function BestSellingProducts() {
       img: "product6.png",
       price: 1160,
       discountedPrice: 960,
-      revies: 75,
+      review: 75,
       rating: 5,
     },
     {
@@ -24,7 +24,7 @@ export function BestSellingProducts() {
       img: "product7.png",
       price: 170,
       discountedPrice: 160,
-      revies: 99,
+      review: 99,
       rating: 5,
     },
     {
@@ -32,7 +32,7 @@ export function BestSellingProducts() {
       name: "Small BookSelf",
       img: "product8.png",
       price: 360,
-      revies: 75,
+      review: 75,
       rating: 5,
     },
   ];
@@ -67,7 +67,7 @@ export function BestSellingProducts() {
               price,
               discountInPercentage,
               discountedPrice,
-              revies,
+              review,
             } = product;
 
             return (
@@ -119,7 +119,7 @@ export function BestSellingProducts() {
                       </li>
                     </ul>
                     <span className="font-display text-sm font-medium text-neutral-300">
-                      ({revies})
+                      ({review})
                     </span>
                   </div>
                 </div>

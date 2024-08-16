@@ -7,7 +7,7 @@ export function FlashSale() {
       price: 160,
       discountInPercentage: 40,
       discountedPrice: 120,
-      revies: 88,
+      review: 88,
       rating: 5,
     },
     {
@@ -17,7 +17,7 @@ export function FlashSale() {
       price: 1160,
       discountInPercentage: 35,
       discountedPrice: 960,
-      revies: 75,
+      review: 75,
       rating: 5,
     },
     {
@@ -27,7 +27,7 @@ export function FlashSale() {
       price: 400,
       discountInPercentage: 30,
       discountedPrice: 370,
-      revies: 99,
+      review: 99,
       rating: 5,
     },
     {
@@ -37,7 +37,7 @@ export function FlashSale() {
       price: 400,
       discountInPercentage: 25,
       discountedPrice: 375,
-      revies: 75,
+      review: 75,
       rating: 5,
     },
   ];
@@ -103,7 +103,7 @@ export function FlashSale() {
               price,
               discountInPercentage,
               discountedPrice,
-              revies,
+              review,
             } = product;
 
             return (
@@ -148,7 +148,7 @@ export function FlashSale() {
                       </li>
                     </ul>
                     <span className="font-display text-sm font-medium text-neutral-300">
-                      ({revies})
+                      ({review})
                     </span>
                   </div>
                 </div>

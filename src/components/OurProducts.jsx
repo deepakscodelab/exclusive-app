@@ -5,7 +5,7 @@ export function OurProducts() {
       name: "Breed Dry Dog Food",
       img: "product9.jfif",
       price: 100,
-      revies: 88,
+      review: 88,
       rating: 5,
     },
     {
@@ -13,7 +13,7 @@ export function OurProducts() {
       name: "CANON EOS DSLR Camera",
       img: "product10.png",
       price: 360,
-      revies: 95,
+      review: 95,
       rating: 5,
     },
     {
@@ -21,7 +21,7 @@ export function OurProducts() {
       name: "ASUS FHD Gaming Laptop",
       img: "product11.png",
       price: 700,
-      revies: 325,
+      review: 325,
       rating: 5,
     },
     {
@@ -29,7 +29,7 @@ export function OurProducts() {
       name: "Curology Product Set",
       img: "product12.png",
       price: 500,
-      revies: 145,
+      review: 145,
       rating: 5,
     },
     {
@@ -38,7 +38,7 @@ export function OurProducts() {
       img: "product13.png",
       isNewProduct: true,
       price: 700,
-      revies: 65,
+      review: 65,
       rating: 5,
     },
     {
@@ -46,7 +46,7 @@ export function OurProducts() {
       name: "Jr. Zoom Soccer Cleats",
       img: "product14.png",
       price: 1160,
-      revies: 35,
+      review: 35,
       rating: 5,
     },
     {
@@ -55,7 +55,7 @@ export function OurProducts() {
       img: "product15.png",
       isNewProduct: true,
       price: 660,
-      revies: 55,
+      review: 55,
       rating: 5,
     },
     {
@@ -63,7 +63,7 @@ export function OurProducts() {
       name: "Quilted Satin Jacket",
       img: "product12.png",
       price: 660,
-      revies: 55,
+      review: 55,
       rating: 5,
     },
   ];
@@ -93,7 +93,7 @@ export function OurProducts() {
       <div id="sale-product" className="mt-10">
         <div className="flex flex-wrap gap-8">
           {productList.map((product) => {
-            const { id, name, img, price, isNewProduct, revies } = product;
+            const { id, name, img, price, isNewProduct, review } = product;
 
             return (
               <div id="sale-product" key={id} className="h-[350px] w-[270px]">
@@ -140,7 +140,7 @@ export function OurProducts() {
                         </li>
                       </ul>
                       <span className="font-display text-sm font-medium text-neutral-300">
-                        ({revies})
+                        ({review})
                       </span>
                     </div>
                   </div>
