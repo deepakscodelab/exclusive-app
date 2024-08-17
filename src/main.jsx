@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./Home.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import "./assets/admin/css/satoshi.css";
 import ErrorPage from "./components/error-page.jsx";
 import { Singup } from "./components/Signup.jsx";
 import { Login } from "./components/Login.jsx";
