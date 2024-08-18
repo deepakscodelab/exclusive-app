@@ -3,8 +3,8 @@ import Logo from "../../assets/images/logo/logo.svg";
 
 export function Sidebar() {
   return (
-    <aside className="w-72.5 bg-black2 h-screen">
-      <div className="py-5.5 lg:py-6.5 flex items-center justify-between px-6">
+    <aside className="h-screen w-72.5 bg-black">
+      <div className="flex items-center justify-between px-6 py-5.5 lg:py-6.5">
         <NavLink to="/">
           <img src={Logo} alt="Logo" />
         </NavLink>
@@ -12,14 +12,14 @@ export function Sidebar() {
       <div>
         <nav className="mt-5 px-4 py-4 lg:mt-9 lg:px-6">
           <div>
-            <h3 className="text-bodydark2 mb-4 ml-4 rounded-sm text-sm font-semibold">
+            <h3 className="mb-4 ml-4 rounded-sm text-sm font-semibold text-bodydark2">
               MENU
             </h3>
             <ul>
               <li>
                 <a
                   href="#"
-                  className="text-bodydark1 hover:bg-graydark relative flex items-center gap-2.5 px-4 py-2 font-medium"
+                  className="relative flex items-center gap-2.5 px-4 py-2 font-medium text-bodydark1 hover:bg-graydark"
                 >
                   <svg
                     className="fill-current"
@@ -67,7 +67,7 @@ export function Sidebar() {
               <li>
                 <NavLink
                   to="/admin/profile"
-                  className="text-bodydark1 hover:bg-graydark relative flex items-center gap-2.5 px-4 py-2 font-medium"
+                  className="relative flex items-center gap-2.5 px-4 py-2 font-medium text-bodydark1 hover:bg-graydark"
                 >
                   <svg
                     className="fill-current"
@@ -93,7 +93,7 @@ export function Sidebar() {
               <li>
                 <NavLink
                   to="/settings"
-                  className="text-bodydark1 hover:bg-graydark relative flex items-center gap-2.5 px-4 py-2 font-medium"
+                  className="relative flex items-center gap-2.5 px-4 py-2 font-medium text-bodydark1 hover:bg-graydark"
                 >
                   <svg
                     className="fill-current"
