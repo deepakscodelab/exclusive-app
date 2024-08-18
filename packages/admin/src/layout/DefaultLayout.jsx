@@ -1,8 +1,8 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-// import Header from '../components/Header/index';
 import { Sidebar } from "../components/Sidebar/index";
+import { Header } from "../components/Header";
 
 export function DefaultLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -18,7 +18,7 @@ export function DefaultLayout({ children }) {
         {/* <!-- ===== Content Area Start ===== --> */}
         <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
           {/* <!-- ===== Header Start ===== --> */}
-          {/* <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} /> */}
+          <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
           {/* <!-- ===== Header End ===== --> */}
 
           {/* <!-- ===== Main Content Start ===== --> */}
